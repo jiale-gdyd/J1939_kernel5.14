@@ -12,24 +12,24 @@
 
 #include "j1939-priv.h"
 
-#define J1939_XTP_TX_RETRY_LIMIT 100
+#define J1939_XTP_TX_RETRY_LIMIT    100
 
-#define J1939_ETP_PGN_CTL 0xc800
-#define J1939_ETP_PGN_DAT 0xc700
-#define J1939_TP_PGN_CTL 0xec00
-#define J1939_TP_PGN_DAT 0xeb00
+#define J1939_ETP_PGN_CTL           0xc800
+#define J1939_ETP_PGN_DAT           0xc700
+#define J1939_TP_PGN_CTL            0xec00
+#define J1939_TP_PGN_DAT            0xeb00
 
-#define J1939_TP_CMD_RTS 0x10
-#define J1939_TP_CMD_CTS 0x11
-#define J1939_TP_CMD_EOMA 0x13
-#define J1939_TP_CMD_BAM 0x20
-#define J1939_TP_CMD_ABORT 0xff
+#define J1939_TP_CMD_RTS            0x10
+#define J1939_TP_CMD_CTS            0x11
+#define J1939_TP_CMD_EOMA           0x13
+#define J1939_TP_CMD_BAM            0x20
+#define J1939_TP_CMD_ABORT          0xff
 
-#define J1939_ETP_CMD_RTS 0x14
-#define J1939_ETP_CMD_CTS 0x15
-#define J1939_ETP_CMD_DPO 0x16
-#define J1939_ETP_CMD_EOMA 0x17
-#define J1939_ETP_CMD_ABORT 0xff
+#define J1939_ETP_CMD_RTS           0x14
+#define J1939_ETP_CMD_CTS           0x15
+#define J1939_ETP_CMD_DPO           0x16
+#define J1939_ETP_CMD_EOMA          0x17
+#define J1939_ETP_CMD_ABORT         0xff
 
 enum j1939_xtp_abort {
 	J1939_XTP_NO_ABORT = 0,
